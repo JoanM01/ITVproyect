@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="OIP %281%29.jpg" />
+    <None Remove="OIP %282%29.jpg" />
+    <None Remove="OIP.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.0.4" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.3.0" />
+    <PackageReference Include="Uno.ShowMeTheXAML.MSBuild" Version="1.0.59" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="OIP (1).jpg" />
+    <Resource Include="OIP (2).jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SplashScreen Include="OIP.jpg" />
+  </ItemGroup>
+
+</Project>
